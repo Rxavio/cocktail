@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./SearchInput.css";
 
 const SearchInput = () => {
+  const searchValue = useRef();
  
   return (
     <section className="section search">
